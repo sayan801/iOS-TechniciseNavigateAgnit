@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1167BC01CCD3B8E0081D91F /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1167BBF1CCD3B8E0081D91F /* LoginViewController.xib */; };
+		C1167BC31CCD3EE90081D91F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1167BC21CCD3EE90081D91F /* LoginViewController.m */; };
 		C1A923531CCC014100CA9CEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A923521CCC014100CA9CEB /* main.m */; };
 		C1A923561CCC014100CA9CEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A923551CCC014100CA9CEB /* AppDelegate.m */; };
 		C1A923591CCC014100CA9CEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A923581CCC014100CA9CEB /* ViewController.m */; };
-		C1A9235C1CCC014100CA9CEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A9235A1CCC014100CA9CEB /* Main.storyboard */; };
 		C1A9235E1CCC014100CA9CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A9235D1CCC014100CA9CEB /* Assets.xcassets */; };
 		C1A923611CCC014100CA9CEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A9235F1CCC014100CA9CEB /* LaunchScreen.storyboard */; };
 		C1A9236C1CCC014100CA9CEB /* MyCuratioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A9236B1CCC014100CA9CEB /* MyCuratioTests.m */; };
@@ -35,13 +36,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C1167BBF1CCD3B8E0081D91F /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		C1167BC11CCD3EE90081D91F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C1167BC21CCD3EE90081D91F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		C1A9234E1CCC014000CA9CEB /* iOS-TechniciseNavigateAgnit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-TechniciseNavigateAgnit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A923521CCC014100CA9CEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1A923541CCC014100CA9CEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C1A923551CCC014100CA9CEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C1A923571CCC014100CA9CEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C1A923581CCC014100CA9CEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C1A9235B1CCC014100CA9CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1A9235D1CCC014100CA9CEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1A923601CCC014100CA9CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1A923621CCC014100CA9CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,11 +108,13 @@
 				C1A923551CCC014100CA9CEB /* AppDelegate.m */,
 				C1A923571CCC014100CA9CEB /* ViewController.h */,
 				C1A923581CCC014100CA9CEB /* ViewController.m */,
-				C1A9235A1CCC014100CA9CEB /* Main.storyboard */,
 				C1A9235D1CCC014100CA9CEB /* Assets.xcassets */,
 				C1A9235F1CCC014100CA9CEB /* LaunchScreen.storyboard */,
 				C1A923621CCC014100CA9CEB /* Info.plist */,
 				C1A923511CCC014100CA9CEB /* Supporting Files */,
+				C1167BBF1CCD3B8E0081D91F /* LoginViewController.xib */,
+				C1167BC11CCD3EE90081D91F /* LoginViewController.h */,
+				C1167BC21CCD3EE90081D91F /* LoginViewController.m */,
 			);
 			path = TechniciseNavigateAgnit;
 			sourceTree = "<group>";
@@ -248,7 +253,7 @@
 			files = (
 				C1A923611CCC014100CA9CEB /* LaunchScreen.storyboard in Resources */,
 				C1A9235E1CCC014100CA9CEB /* Assets.xcassets in Resources */,
-				C1A9235C1CCC014100CA9CEB /* Main.storyboard in Resources */,
+				C1167BC01CCD3B8E0081D91F /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1167BC31CCD3EE90081D91F /* LoginViewController.m in Sources */,
 				C1A923591CCC014100CA9CEB /* ViewController.m in Sources */,
 				C1A923561CCC014100CA9CEB /* AppDelegate.m in Sources */,
 				C1A923531CCC014100CA9CEB /* main.m in Sources */,
@@ -311,14 +317,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C1A9235A1CCC014100CA9CEB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C1A9235B1CCC014100CA9CEB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C1A9235F1CCC014100CA9CEB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -417,7 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = MyCuratio/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TechniciseNavigateAgnit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.technicise.NavigateAgnit;
 				PRODUCT_NAME = "iOS-TechniciseNavigateAgnit";
@@ -429,7 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = MyCuratio/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TechniciseNavigateAgnit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.technicise.NavigateAgnit;
 				PRODUCT_NAME = "iOS-TechniciseNavigateAgnit";

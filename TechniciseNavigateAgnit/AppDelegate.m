@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.navController = [[UINavigationController alloc] initWithRootViewController:[LoginViewController new]];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    [self.window setRootViewController:self.navController];
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;
 }
@@ -40,6 +46,14 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark -
+#pragma mark - Loading View
+
+- (void) navControllerPushController:(UIViewController *) controller
+{
+    [self.navController pushViewController:controller animated:TRUE];
 }
 
 @end
